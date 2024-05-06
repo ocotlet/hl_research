@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "hl-research"
+version = "0.1.0"
+description = ""
+authors = ["Ovidiu Cotlet <ovidiu.cotlet@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.scripts]
+scraper = 'hl_research.main:main'
+
+[tool.poetry.dependencies]
+python = "^3.11"
+loguru = "^0.7.2"
+typing-extensions = "^4.11.0"
+websocket-client = "^1.8.0"
+pytest = "^8.2.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
