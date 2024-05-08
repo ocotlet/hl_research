@@ -1,3 +1,13 @@
 .env
 data
 .venv
+tmp
+*cache*/
+**/*.pyc
+.pytest_cache
+.venv
+.vscode
+dist
+.DS_Store
+cassettes
+tmp.py
